@@ -24,10 +24,10 @@ Monserrat Chantes Morales
 <preference name="permissions"				value="INTERNET" />
 
 <!--Para accesar a paginas en internet-->
-<allow-intent href="https://*/*/*"/>
-<access origin="https://*/*/*"/>
-<allow-intent href="http://*/*/*"/>
-<access origin="http://*/*/*"/>
+<allow-intent href="https://*/*"/>
+<access origin="https://*/*"/>
+<allow-intent href="http://*/*"/>
+<access origin="http://*/*"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
 <!--Core plugins-->
 <plugin name="cordova-plugin-device" spec="~1.1.4"/>
